@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: rebeccapurple !important;
+  border-color: rebeccapurple !important;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+h1 {
+  text-align: center;
+}
+
+.choice {
+  display: block;
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+}
+
+#time {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: black;
+}
+
+#HighScore {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+a {
+  color: rebeccapurple;
+}
+
+.answerStyle {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: rebeccapurple;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
