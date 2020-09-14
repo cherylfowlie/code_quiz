@@ -76,7 +76,7 @@ function getQuestion() {
     var currentQuestion = questions[currentQuestionIndex];
 
     // update title with current question
-    var titleEl = document.getElementById("question-title");
+    var titleEl = document.getElementById("questionHeading");
     titleEl.textContent = currentQuestion.title;
 
     userChoice.innerHTML = "";
@@ -183,7 +183,16 @@ function checkSubmit(click) {
     }
 }
 
+//TODO Enter highscrore functions
+function highscoreClear() {
+    //Use local storage to clear
+}
+
+function showHighscore() {
+    //Print the highscore function
+}
 
 submitButton.onclick = saveScore;
 startButton.onclick = startQuiz;
 initialsInput.onkeyup = checkSubmit;
+
