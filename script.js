@@ -11,19 +11,14 @@ var questions = [
         answer: "parentheses"
     },
     {
-        title: "What javascipt method can we use to select an html element?",
-        choices: ["document.queryselector()", "document.getElementChild", "document.getElementById", "Both 1 and 3"],
-        answer: "Both 1 and 3"
+        title: "Arrays in JavaScript can be used to store",
+        choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
+        answer: "all of the above"
     },
     {
-        title: "What html tag is NOT included in the HEAD tag?",
-        choices: ["link", "meta", "title", "header"],
-        answer: "header"
-    },
-    {
-        title: "What attribute is used in html to decorate content?",
-        choices: ["css", "class", "src", "style"],
-        answer: "style"
+        title: "A Very useful tool used during development and debugging for printing content to the debugger is:",
+        choices: ["javascript", "terminal/bash", "for loops", "console.log"],
+        answer: "console.log"
     }
 ]
 
